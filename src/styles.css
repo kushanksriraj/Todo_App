@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  padding: 1rem;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo__header {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.todo__status {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.todo__status span {
+  font-weight: bold;
+}
+
+.todo__form {
+  margin: 1rem auto;
+}
+
+.todo__form__input {
+  padding: 0.3rem;
+  border: 2px solid black;
+}
+
+.btn__add {
+  margin-left: 1rem;
+  background-color: white;
+  font-weight: bold;
+  padding: 0.2rem;
+  box-shadow: 3px 3px black;
+}
+
+.todo__list {
+  list-style: none;
+}
+
+.todo__list__item__div {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo__list__item__div input {
+   margin-right: 0.7rem;
+}
+
+.todo__list__item {
+  margin: 0.5rem 0;
+}
+
+.btn__delete {
+  margin-left: 1rem;
+  background-color: white;
+  font-weight: bold;
+  padding: 0.2rem;
+  height: 28px;
+  box-shadow: 3px 3px black;
+}
+
+.btn__reset {
+  background-color: white;
+  font-weight: bold;
+  padding: 0.2rem;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 3px 3px black;
+}
